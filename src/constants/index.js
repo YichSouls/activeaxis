@@ -1,7 +1,7 @@
 import {
-    mobile,
-    backend,
-    creator,
+    react,
+    unity,
+    vr,
     web,
     javascript,
     typescript,
@@ -15,14 +15,18 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    artetmetiers,
+    dataklub,
+    institutdelavision,
+    psa,
+    voodoo,
     threejs,
+    database,
+    dataviz,
+    facebook,
+    github,
+    helixjump,
+    ballblast,
 } from "../assets";
 
 export const navLinks = [
@@ -47,15 +51,15 @@ const services = [
     },
     {
         title: "React Native Developer",
-        icon: mobile,
+        icon: react,
     },
     {
         title: "Unity3D Developper",
-        icon: backend,
+        icon: unity,
     },
     {
         title: "AR/VR Developper",
-        icon: creator,
+        icon: vr,
     },
 ];
 
@@ -116,55 +120,63 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Engineering degree",
+        company_name: "ÉCOLE NATIONALE SUPÉRIEURE D'ARTS ET MÉTIERS - PARIS, FRANCE",
+        icon: artetmetiers,
+        iconBg: "#ffffff",
+        date: "09/2016 - 11/2018",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Engineering degree.",
+            "Specialized in the field of virtual prototyping - mechanical analysis, visualization of forces on a part.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        title: "END-OF-STUDY INTERNSHIP",
+        company_name: "GROUPE PSA - PARIS, FRANCE",
+        icon: psa,
+        iconBg: "#1f2436",
+        date: "02/2018 – 08/2018",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Designed and developed an interactive automotive tutorial using augmented reality (AR) technology for the Microsoft HoloLens headset.",
+            "Programmed the tutorial for the autonomous driving feature using the Unity3D engine and the C# programming language.",
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        title: "UNITY3D DEVELOPER",
+        company_name: "dataklub - ILE-DE-FRANCE, FRANCE",
+        icon: dataklub,
+        iconBg: "#96c11d",
+        date: "02/2019 - 02/2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Designed and developed interactive 3D visualizations for the Splunk Big Data platform using the Unity3D engine.",
+            "Adapted the application for use on various devices, such as Microsoft's MagicLeap and HoloLens augmented reality headsets, as well as PC and Mac desktops.",
+            "Actively participated in the company's exhibits at professional events such as Big Data Paris and Laval Virtual, helping to promote the company's products and solutions.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        title: "APPLICATION DEVELOPER",
+        company_name: "STREETLAB, INSTITUT DE LA VISION - PARIS, FRANCE",
+        icon: institutdelavision,
+        iconBg: "#ffffff",
+        date: "02/2020 – 04/2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Design and development of a virtual reality (VR) platform to provide solutions for patients with visual impairments.",
+            "Development of a mobile application allowing the monitoring and estimation of visual diseases to facilitate the management of patients.",
+            "Analysis and visualization of data collected from various participant response acquisition systems, such as body movement, eye movement, electrocardiography (ECG) and skin conductance (EDA).",
+            "Collaboration with a multidisciplinary team to improve ophthalmic diagnostic tools and methods.",
+        ],
+    },
+    {
+        title: "PLAYABLE ADS DEVELOPPER - FREELANCE",
+        company_name: "VOODOO- ILE-DE-FRANCE, FRANCE",
+        icon: voodoo,
+        iconBg: "#000000",
+        date: "08/2022 - NOW",
+        points: [
+            "Porting video games developed in C# on the Unity3D game engine to web platforms using JavaScript and HTML.",
+            "Optimized game performance on browsers to ensure a smooth and enjoyable user experience.",
+            "Implemented social networking features, such as the ability to play with friends online and manage microtransactions.",
+            "Collaborate with the development team to improve the game experience and facilitate player engagement.",
         ],
     },
 ];
@@ -198,67 +210,63 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "DataViz Earth",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "A visualization of the internet attack based on big data developed by the company kaspersky. Similar to the solution I developed in the VR headset when I was in Dataklub.",
+        tags: [
+            {
+                name: "vr/ar",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "videogame",
+                color: "green-text-gradient",
+            },
+        ],
+        image: dataviz,
+        source_code_link: "",
+    },
+    {
+        name: "Helix Jump",
+        description:
+            "Helix Jump is an HTML5-based hyper-casual game. My responsibilities include converting a Unity3D version to JavaScript using three.js, optimizing for lower-tier devices, and adding social features. The game has currently amassed over 931k active Facebook players.",
         tags: [
             {
                 name: "react",
-                color: "blue-text-gradient",
+                color: "orange-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "videogame",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "html5",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: helixjump,
+        source_code_link: "https://fb.gg/play/helixjumpinstant",
     },
     {
-        name: "Job IT",
+        name: "Ball Blast",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Ball Blast is an HTML5-based hyper-casual game originally developed in Unity3D. My role involves translating this version into JavaScript using three.js, optimizing gameplay, and integrating social features. The game features extensive physics simulations to enhance the player experience.",
         tags: [
             {
                 name: "react",
-                color: "blue-text-gradient",
+                color: "orange-text-gradient",
             },
             {
-                name: "restapi",
+                name: "videogame",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "html5",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: ballblast,
+        source_code_link: "https://fb.gg/play/ballblastinstant",
     },
 ];
 
