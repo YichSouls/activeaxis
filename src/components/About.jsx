@@ -47,14 +47,10 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
             >
-                I'm a skilled software developer with experience in TypeScript and
-                JavaScript, and expertise in frameworks like React, Node.js, and
-                Three.js. I'm a quick learner and collaborate closely with clients to
-                create efficient, scalable, and user-friendly solutions that solve
-                real-world problems. Let's work together to bring your ideas to life!
+                Experienced developer in virtual/augmented reality (VR/AR) and creation of web and mobile applications, with expertise in video games, data visualization and ophthalmological solutions. Proficient in C# programming, JavaScript, HTML and use of the Unity3D game engine. Passionate about innovation and emerging technologies, I'm always looking for new opportunities to deepen my skills and contribute to high-impact projects. My ability to collaborate with multidisciplinary teams and adapt to different fields enables me to provide creative and effective solutions.
             </motion.p>
 
-            <div className='mt-20 flex flex-wrap gap-10'>
+            <div className='mt-10 flex flex-wrap gap-5'>
                 {services.map((service, index) => (
                     <ServiceCard key={service.title} index={index} {...service} />
                 ))}
