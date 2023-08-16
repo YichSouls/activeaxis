@@ -10,7 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ServiceCard = ({ index, title, icon }) => (
     <Tilt className='xs:w-[250px] w-full'>
         <motion.div
-            variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+            variants={fadeIn("right", "spring", index * 0.2, 0.5)}
             className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
         >
             <div
@@ -44,13 +44,13 @@ const About = () => {
             </div>
 
             <motion.p
-                variants={fadeIn("", "", 0.1, 1)}
+                variants={fadeIn("", "", 0.1, 0.5)}
                 className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
             >
                 Experienced developer in virtual/augmented reality (VR/AR) and creation of web and mobile applications, with expertise in video games, data visualization and ophthalmological solutions. Proficient in C# programming, JavaScript, HTML and use of the Unity3D game engine. Passionate about innovation and emerging technologies, I'm always looking for new opportunities to deepen my skills and contribute to high-impact projects. My ability to collaborate with multidisciplinary teams and adapt to different fields enables me to provide creative and effective solutions.
             </motion.p>
 
-            <div className='mt-10 flex flex-wrap gap-5'>
+            <div className='mt-7 flex flex-wrap gap-5'>
                 {services.map((service, index) => (
                     <ServiceCard key={service.title} index={index} {...service} />
                 ))}
