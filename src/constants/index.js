@@ -4,27 +4,22 @@ import {
     vr,
     web,
     javascript,
-    typescript,
     html,
-    css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
     artetmetiers,
     dataklub,
     institutdelavision,
     psa,
     voodoo,
     threejs,
-    database,
-    dataviz,
     facebook,
     github,
+    linkedin,
+    dataviz,
     helixjump,
     ballblast,
 } from "../assets";
@@ -69,24 +64,12 @@ const technologies = [
         icon: html,
     },
     {
-        name: "CSS 3",
-        icon: css,
-    },
-    {
         name: "JavaScript",
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
     },
     {
         name: "Tailwind CSS",
@@ -95,10 +78,6 @@ const technologies = [
     {
         name: "Node JS",
         icon: nodejs,
-    },
-    {
-        name: "MongoDB",
-        icon: mongodb,
     },
     {
         name: "Three JS",
@@ -111,10 +90,6 @@ const technologies = [
     {
         name: "figma",
         icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
     },
 ];
 
@@ -224,7 +199,8 @@ const projects = [
             },
         ],
         image: dataviz,
-        source_code_link: "",
+        link_image: linkedin,
+        source_code_link: "https://www.linkedin.com/in/yichaoliu1992",
     },
     {
         name: "Helix Jump",
@@ -245,6 +221,7 @@ const projects = [
             },
         ],
         image: helixjump,
+        link_image: facebook,
         source_code_link: "https://fb.gg/play/helixjumpinstant",
     },
     {
@@ -266,6 +243,7 @@ const projects = [
             },
         ],
         image: ballblast,
+        link_image: facebook,
         source_code_link: "https://fb.gg/play/ballblastinstant",
     },
 ];

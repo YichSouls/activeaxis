@@ -1,23 +1,18 @@
 import logo from "./logo.svg";
-import react from "./react.png";
-import unity from "./unity.png";
-import vr from "./vr.png";
-import web from "./web.png";
+import react from "./about/react.png";
+import unity from "./about/unity.png";
+import vr from "./about/vr.png";
+import web from "./about/web.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import artetmetiers from "./company/artetmetiers.jpeg";
@@ -26,11 +21,11 @@ import institutdelavision from "./company/institutdelavision.jpeg";
 import psa from "./company/psa.jpeg";
 import voodoo from "./company/voodoo.jpeg";
 
-import ballblast from "./project/ballblast.png";
-import database from "./project/database.png";
-import dataviz from "./project/dataviz.jpeg";
 import facebook from "./project/facebook.png";
 import github from "./project/github.png";
+import linkedin from "./project/linkedin.png";
+import ballblast from "./project/ballblast.png";
+import dataviz from "./project/dataviz.jpeg";
 import helixjump from "./project/helixjump.png";
 
 export {
@@ -42,18 +37,13 @@ export {
     menu,
     close,
 
-    css,
-    docker,
     figma,
     git,
     html,
     javascript,
-    mongodb,
     nodejs,
     reactjs,
-    redux,
     tailwind,
-    typescript,
     threejs,
 
     artetmetiers,
@@ -62,10 +52,10 @@ export {
     psa,
     voodoo,
 
-    ballblast,
-    database,
-    dataviz,
     facebook,
     github,
+    linkedin,
+    ballblast,
+    dataviz,
     helixjump,
 };
