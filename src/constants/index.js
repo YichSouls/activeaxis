@@ -22,6 +22,16 @@ import {
     dataviz,
     helixjump,
     ballblast,
+    chinese,
+    french,
+    english,
+    blender,
+    c_sharp,
+    photoshop,
+    premiere,
+    python,
+    unity_icon,
+    visual_studio,
 } from "../assets";
 
 export const navLinks = [
@@ -58,7 +68,30 @@ const services = [
     },
 ];
 
-const technologies = [
+const languages = [
+    {
+        name: "Chinese: native speaker",
+        icon: chinese,
+    },
+    {
+        name: "English: fluent (IELTS 7.0, C1)",
+        icon: english,
+    },
+    {
+        name: "French: fluent (DALF C1)",
+        icon: french,
+    }
+];
+
+const codings = [
+    {
+        name: "c_sharp",
+        icon: c_sharp,
+    },
+    {
+        name: "git",
+        icon: git,
+    },
     {
         name: "HTML 5",
         icon: html,
@@ -66,6 +99,14 @@ const technologies = [
     {
         name: "JavaScript",
         icon: javascript,
+    },
+    {
+        name: "Node JS",
+        icon: nodejs,
+    },
+    {
+        name: "Python",
+        icon: python,
     },
     {
         name: "React JS",
@@ -76,21 +117,36 @@ const technologies = [
         icon: tailwind,
     },
     {
-        name: "Node JS",
-        icon: nodejs,
-    },
-    {
         name: "Three JS",
         icon: threejs,
     },
     {
-        name: "git",
-        icon: git,
+        name: "Unity 3D",
+        icon: unity_icon,
+    },
+    {
+        name: "Visual Studio",
+        icon: visual_studio,
+    },
+];
+
+const multimedias = [
+    {
+        name: "Blender",
+        icon: blender,
     },
     {
         name: "figma",
         icon: figma,
     },
+    {
+        name: "Adobe Photoshop",
+        icon: photoshop,
+    },
+    {
+        name: "Adobe Premiere",
+        icon: premiere,
+    }
 ];
 
 const experiences = [
@@ -248,4 +304,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, languages, codings, experiences, testimonials, projects };

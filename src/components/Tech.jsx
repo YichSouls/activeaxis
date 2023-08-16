@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
+import { languages, codings } from "../constants";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -43,6 +43,8 @@ const Tech = () => {
             <div variants={textVariant()}>
                 <h2 className={styles.sectionHeadText}>Language & Computer skills</h2>
             </div>
+
+            <p className={styles.sectionSubText}>Introduction</p>
 
             <div className='mt-7 flex flex-wrap gap-5'>
                 {services.map((service, index) => (
