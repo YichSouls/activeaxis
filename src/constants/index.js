@@ -85,11 +85,11 @@ const languages = [
 
 const codings = [
     {
-        name: "c_sharp",
+        name: "C#",
         icon: c_sharp,
     },
     {
-        name: "git",
+        name: "Git",
         icon: git,
     },
     {
@@ -117,7 +117,7 @@ const codings = [
         icon: tailwind,
     },
     {
-        name: "Three JS",
+        name: "ThreeJS",
         icon: threejs,
     },
     {
@@ -136,7 +136,7 @@ const multimedias = [
         icon: blender,
     },
     {
-        name: "figma",
+        name: "Figma",
         icon: figma,
     },
     {
@@ -304,4 +304,4 @@ const projects = [
     },
 ];
 
-export { services, languages, codings, experiences, testimonials, projects };
+export { services, languages, codings, multimedias, experiences, testimonials, projects };
