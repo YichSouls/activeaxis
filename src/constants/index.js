@@ -215,27 +215,19 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Yichao always has a professional attitude towards software development. He's a great engineer who can address both hardware and software problems.",
+        name: "Johan Le Brun",
+        designation: "Project Engineer",
+        company: "Streetlab",
+        image: "https://media.licdn.com/dms/image/C4E03AQFI4zEdLrAUXA/profile-displayphoto-shrink_200_200/0/1523283892705?e=1697673600&v=beta&t=wR77pCdkm040w2B1ufZ00rZQKgLEOz7qJg_9Rr7DB-Q",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "Yichao has a lot of experience with video games, so his sense of developing interactive software is better than the average developer.",
+        name: "Kamal Zitouni",
+        designation: "Partnerships H5 instant games",
+        company: "Voodoo",
+        image: "https://media.licdn.com/dms/image/C4D03AQGxZ7_2HGXqWQ/profile-displayphoto-shrink_200_200/0/1585171559415?e=1697673600&v=beta&t=xgJzopx8YbDsfpfV9n-5LUHmBWaIm3PErizr_OlM7WU",
     },
 ];
 
