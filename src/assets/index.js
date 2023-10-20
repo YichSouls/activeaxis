@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import data from "./about/data.png";
 import react from "./about/react.png";
 import unity from "./about/unity.png";
 import vr from "./about/vr.png";
@@ -9,6 +10,7 @@ import close from "./close.svg";
 import blender from "./tech/blender.svg";
 import c_sharp from "./tech/c_sharp.png";
 import chinese from "./tech/chinese.png";
+import django from "./tech/django.png";
 import english from "./tech/english.png";
 import figma from "./tech/figma.png";
 import french from "./tech/french.png";
@@ -25,6 +27,9 @@ import threejs from "./tech/threejs.svg";
 import unity_icon from "./tech/unity_icon.png";
 import visual_studio from "./tech/visual_studio.png";
 
+import johan from "./feedback/johan.jpeg";
+import kamal from "./feedback/kamal.jpeg";
+
 import artetmetiers from "./company/artetmetiers.jpeg";
 import dataklub from "./company/dataklub.jpeg";
 import institutdelavision from "./company/institutdelavision.jpeg";
@@ -40,6 +45,7 @@ import helixjump from "./project/helixjump.png";
 
 export {
     logo,
+    data,
     react,
     unity,
     vr,
@@ -50,6 +56,7 @@ export {
     blender,
     c_sharp,
     chinese,
+    django,
     english,
     figma,
     french,
@@ -65,6 +72,9 @@ export {
     threejs,
     unity_icon,
     visual_studio,
+
+    johan,
+    kamal,
 
     artetmetiers,
     dataklub,

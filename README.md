@@ -26,6 +26,9 @@ Become a Software Engineer. Guaranteed.
 ### Start dev mode
 `npm run dev`
 
+### Host to preview on local network
+`npm run host`
+
 ### Build 
 `npm run build`
 
